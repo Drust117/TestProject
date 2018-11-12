@@ -13,10 +13,5 @@ public class Test
 	public void setTest(int test) {
 		this.test = test;
 	}
-	public String getX() {
-		return x;
-	}
-	public void setX(String x) {
-		this.x = x;
-	}
+
 }
