@@ -2,6 +2,7 @@
 public class Test 
 {
 	private int test = 2;
+	private String x = "Test";
 	public static void main(String[] args) 
 	{  
 		System.out.println("Hello World");
@@ -11,5 +12,11 @@ public class Test
 	}
 	public void setTest(int test) {
 		this.test = test;
+	}
+	public String getX() {
+		return x;
+	}
+	public void setX(String x) {
+		this.x = x;
 	}
 }
